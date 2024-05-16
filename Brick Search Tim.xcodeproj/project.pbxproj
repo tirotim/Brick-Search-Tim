@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899115552BF65970000BD67A /* Brick_Search_TimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899115542BF65970000BD67A /* Brick_Search_TimApp.swift */; };
+		899115572BF65970000BD67A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899115562BF65970000BD67A /* ContentView.swift */; };
+		899115592BF65972000BD67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899115582BF65972000BD67A /* Assets.xcassets */; };
+		8991155C2BF65972000BD67A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8991155B2BF65972000BD67A /* Preview Assets.xcassets */; };
+		899115662BF65972000BD67A /* Brick_Search_TimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899115652BF65972000BD67A /* Brick_Search_TimTests.swift */; };
+		899115702BF65972000BD67A /* Brick_Search_TimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8991156F2BF65972000BD67A /* Brick_Search_TimUITests.swift */; };
+		899115722BF65972000BD67A /* Brick_Search_TimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899115712BF65972000BD67A /* Brick_Search_TimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		899115622BF65972000BD67A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899115492BF65970000BD67A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899115502BF65970000BD67A;
+			remoteInfo = "Brick Search Tim";
+		};
+		8991156C2BF65972000BD67A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899115492BF65970000BD67A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899115502BF65970000BD67A;
+			remoteInfo = "Brick Search Tim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		899115512BF65970000BD67A /* Brick Search Tim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brick Search Tim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899115542BF65970000BD67A /* Brick_Search_TimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick_Search_TimApp.swift; sourceTree = "<group>"; };
+		899115562BF65970000BD67A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		899115582BF65972000BD67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8991155B2BF65972000BD67A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		899115612BF65972000BD67A /* Brick Search TimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brick Search TimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899115652BF65972000BD67A /* Brick_Search_TimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick_Search_TimTests.swift; sourceTree = "<group>"; };
+		8991156B2BF65972000BD67A /* Brick Search TimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brick Search TimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8991156F2BF65972000BD67A /* Brick_Search_TimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick_Search_TimUITests.swift; sourceTree = "<group>"; };
+		899115712BF65972000BD67A /* Brick_Search_TimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick_Search_TimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8991154E2BF65970000BD67A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8991155E2BF65972000BD67A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899115682BF65972000BD67A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		899115482BF65970000BD67A = {
+			isa = PBXGroup;
+			children = (
+				899115532BF65970000BD67A /* Brick Search Tim */,
+				899115642BF65972000BD67A /* Brick Search TimTests */,
+				8991156E2BF65972000BD67A /* Brick Search TimUITests */,
+				899115522BF65970000BD67A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		899115522BF65970000BD67A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				899115512BF65970000BD67A /* Brick Search Tim.app */,
+				899115612BF65972000BD67A /* Brick Search TimTests.xctest */,
+				8991156B2BF65972000BD67A /* Brick Search TimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		899115532BF65970000BD67A /* Brick Search Tim */ = {
+			isa = PBXGroup;
+			children = (
+				899115542BF65970000BD67A /* Brick_Search_TimApp.swift */,
+				899115562BF65970000BD67A /* ContentView.swift */,
+				899115582BF65972000BD67A /* Assets.xcassets */,
+				8991155A2BF65972000BD67A /* Preview Content */,
+			);
+			path = "Brick Search Tim";
+			sourceTree = "<group>";
+		};
+		8991155A2BF65972000BD67A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8991155B2BF65972000BD67A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		899115642BF65972000BD67A /* Brick Search TimTests */ = {
+			isa = PBXGroup;
+			children = (
+				899115652BF65972000BD67A /* Brick_Search_TimTests.swift */,
+			);
+			path = "Brick Search TimTests";
+			sourceTree = "<group>";
+		};
+		8991156E2BF65972000BD67A /* Brick Search TimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8991156F2BF65972000BD67A /* Brick_Search_TimUITests.swift */,
+				899115712BF65972000BD67A /* Brick_Search_TimUITestsLaunchTests.swift */,
+			);
+			path = "Brick Search TimUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		899115502BF65970000BD67A /* Brick Search Tim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899115752BF65972000BD67A /* Build configuration list for PBXNativeTarget "Brick Search Tim" */;
+			buildPhases = (
+				8991154D2BF65970000BD67A /* Sources */,
+				8991154E2BF65970000BD67A /* Frameworks */,
+				8991154F2BF65970000BD67A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brick Search Tim";
+			productName = "Brick Search Tim";
+			productReference = 899115512BF65970000BD67A /* Brick Search Tim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		899115602BF65972000BD67A /* Brick Search TimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899115782BF65972000BD67A /* Build configuration list for PBXNativeTarget "Brick Search TimTests" */;
+			buildPhases = (
+				8991155D2BF65972000BD67A /* Sources */,
+				8991155E2BF65972000BD67A /* Frameworks */,
+				8991155F2BF65972000BD67A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899115632BF65972000BD67A /* PBXTargetDependency */,
+			);
+			name = "Brick Search TimTests";
+			productName = "Brick Search TimTests";
+			productReference = 899115612BF65972000BD67A /* Brick Search TimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8991156A2BF65972000BD67A /* Brick Search TimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8991157B2BF65972000BD67A /* Build configuration list for PBXNativeTarget "Brick Search TimUITests" */;
+			buildPhases = (
+				899115672BF65972000BD67A /* Sources */,
+				899115682BF65972000BD67A /* Frameworks */,
+				899115692BF65972000BD67A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8991156D2BF65972000BD67A /* PBXTargetDependency */,
+			);
+			name = "Brick Search TimUITests";
+			productName = "Brick Search TimUITests";
+			productReference = 8991156B2BF65972000BD67A /* Brick Search TimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		899115492BF65970000BD67A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					899115502BF65970000BD67A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					899115602BF65972000BD67A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 899115502BF65970000BD67A;
+					};
+					8991156A2BF65972000BD67A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 899115502BF65970000BD67A;
+					};
+				};
+			};
+			buildConfigurationList = 8991154C2BF65970000BD67A /* Build configuration list for PBXProject "Brick Search Tim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 899115482BF65970000BD67A;
+			productRefGroup = 899115522BF65970000BD67A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				899115502BF65970000BD67A /* Brick Search Tim */,
+				899115602BF65972000BD67A /* Brick Search TimTests */,
+				8991156A2BF65972000BD67A /* Brick Search TimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8991154F2BF65970000BD67A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8991155C2BF65972000BD67A /* Preview Assets.xcassets in Resources */,
+				899115592BF65972000BD67A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8991155F2BF65972000BD67A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899115692BF65972000BD67A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8991154D2BF65970000BD67A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899115572BF65970000BD67A /* ContentView.swift in Sources */,
+				899115552BF65970000BD67A /* Brick_Search_TimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8991155D2BF65972000BD67A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899115662BF65972000BD67A /* Brick_Search_TimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899115672BF65972000BD67A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899115702BF65972000BD67A /* Brick_Search_TimUITests.swift in Sources */,
+				899115722BF65972000BD67A /* Brick_Search_TimUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		899115632BF65972000BD67A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899115502BF65970000BD67A /* Brick Search Tim */;
+			targetProxy = 899115622BF65972000BD67A /* PBXContainerItemProxy */;
+		};
+		8991156D2BF65972000BD67A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899115502BF65970000BD67A /* Brick Search Tim */;
+			targetProxy = 8991156C2BF65972000BD67A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		899115732BF65972000BD67A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		899115742BF65972000BD67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		899115762BF65972000BD67A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brick Search Tim/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VH539JU7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tiro.Brick-Search-Tim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		899115772BF65972000BD67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Brick Search Tim/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VH539JU7M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tiro.Brick-Search-Tim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		899115792BF65972000BD67A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH539JU7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tiro.Brick-Search-TimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brick Search Tim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brick Search Tim";
+			};
+			name = Debug;
+		};
+		8991157A2BF65972000BD67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH539JU7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tiro.Brick-Search-TimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brick Search Tim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Brick Search Tim";
+			};
+			name = Release;
+		};
+		8991157C2BF65972000BD67A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH539JU7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tiro.Brick-Search-TimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brick Search Tim";
+			};
+			name = Debug;
+		};
+		8991157D2BF65972000BD67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6VH539JU7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tiro.Brick-Search-TimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brick Search Tim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8991154C2BF65970000BD67A /* Build configuration list for PBXProject "Brick Search Tim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899115732BF65972000BD67A /* Debug */,
+				899115742BF65972000BD67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899115752BF65972000BD67A /* Build configuration list for PBXNativeTarget "Brick Search Tim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899115762BF65972000BD67A /* Debug */,
+				899115772BF65972000BD67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899115782BF65972000BD67A /* Build configuration list for PBXNativeTarget "Brick Search TimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899115792BF65972000BD67A /* Debug */,
+				8991157A2BF65972000BD67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8991157B2BF65972000BD67A /* Build configuration list for PBXNativeTarget "Brick Search TimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8991157C2BF65972000BD67A /* Debug */,
+				8991157D2BF65972000BD67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 899115492BF65970000BD67A /* Project object */;
+}
